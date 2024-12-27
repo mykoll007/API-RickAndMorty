@@ -28,3 +28,7 @@ Fornecer acesso a dados sobre os personagens da série "Rick and Morty". Para fi
 - **Descrição**: Retorna os detalhes de um personagem específico.
 
 ---
+
+### API Consumida
+
+A API utilizada para fornecer as informações dos personagens é a **[Rick and Morty API](https://rickandmortyapi.com/)**. Ela permite acessar dados sobre personagens, episódios, locais e mais, com várias opções de filtragem e busca.
