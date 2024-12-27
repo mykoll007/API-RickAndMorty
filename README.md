@@ -28,4 +28,4 @@ Fornecer acesso a dados sobre os personagens da série "Rick and Morty". Para fi
 ---
 
 ### Imagem:
-![Rick and Morty](https://i.imgur.com/6JXswcn.jpg)
+![Rick and Morty](https://imgur.com/OgIFtCO)
