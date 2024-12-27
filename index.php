@@ -1,6 +1,6 @@
 <?php
 // Fazendo a requisição à API
-$ch = curl_init("http://localhost/API_RickAndMorty/api.json"); 
+$ch = curl_init("http://localhost/API_RickAndMorty/api.json"); // Se for usar o localhost altere o caminho para a pasta dentro do seu Disco local e vai para "xampp/htdocs" e cole a pasta da API
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 $response = curl_exec($ch);
 curl_close($ch);
