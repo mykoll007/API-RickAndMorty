@@ -3,7 +3,8 @@
 ![Rick and Morty](https://i.imgur.com/OgIFtCO.jpg)
 
 ### Objetivo:
-Fornecer acesso a dados sobre os personagens da série "Rick and Morty". Para fins de demonstração, escolhi 17 personagens e os armazenei em um arquivo JSON, em vez de buscar todos os dados diretamente da API.
+
+Fornecer acesso a dados sobre os personagens da série "Rick and Morty". Para fins de demonstração, escolhi 14 personagens e os armazenei em um arquivo JSON, em vez de buscar todos os dados diretamente da API.
 
 ---
 
