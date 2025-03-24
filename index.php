@@ -51,8 +51,8 @@ if ($response) {
     </div>
 
     <!-- Projeto desenvolvido por Mykoll Daniel -->
-    <!-- Link do repositório: https://github.com/mykoll007/Projeto-XCronos -->
-         
+    <!-- Link do repositório: https://github.com/mykoll007/Mova-se- -->
+
 <!-- Biblioteca adicionada de particulas fundo -->
 <div id="particles-js"></div>
 
