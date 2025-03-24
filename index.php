@@ -50,6 +50,9 @@ if ($response) {
     <?php endif; ?>
     </div>
 
+    <!-- Projeto desenvolvido por Mykoll Daniel -->
+    <!-- Link do repositório: https://github.com/mykoll007/Projeto-XCronos -->
+         
 <!-- Biblioteca adicionada de particulas fundo -->
 <div id="particles-js"></div>
 
