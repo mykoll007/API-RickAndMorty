@@ -24,16 +24,16 @@ h1 {
 }
 #container{
     display: flex;
-    flex-wrap: wrap; /* Permite que os cards quebrem linha se necessário */
-    justify-content: center; /* Centraliza os cards */
-    gap: 20px; /* Espaço entre os cards */
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 20px; 
     padding: 20px;
 }
 #align-api {
-    width: 250px; /* Largura fixa dos cards */
+    width: 250px; 
     display: flex;
-    flex-direction: column; /* Mantém o conteúdo do card organizado */
-    align-items: center; /* Centraliza os elementos no card */
+    flex-direction: column; 
+    align-items: center; 
     text-align: center;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     background-color: white;
