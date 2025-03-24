@@ -51,7 +51,7 @@ if ($response) {
     </div>
 
     <!-- Projeto desenvolvido por Mykoll Daniel -->
-    <!-- Link do repositório: https://github.com/mykoll007/Mova-se- -->
+    <!-- Link do repositório: https://github.com/mykoll007/API-RickAndMorty -->
 
 <!-- Biblioteca adicionada de particulas fundo -->
 <div id="particles-js"></div>
