@@ -1,7 +1,6 @@
 <?php
 // Fazendo a requisição à API
-$response = file_get_contents("api.json"); // Se for usar o localhost altere o caminho para a pasta dentro do seu Disco local e vai para "xampp/htdocs" e cole a pasta da API
-
+$response = file_get_contents("api.json");
 // Decodificando a resposta JSON
 $characters = [];
 if ($response) {
@@ -16,6 +15,7 @@ if ($response) {
 }
 ?>
 
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -29,21 +29,26 @@ if ($response) {
 <img src="imagens/image-removebg-preview(1).png" alt="imagem logo rick and morty">
 </div>
 <h1>Personagens de Rick and Morty</h1>
-<ul>
+
+<div id="container">        
     <?php if (!empty($characters)): ?>
         <?php foreach ($characters as $character): ?>
-            <li>
+            <div id="align-api">
             <img src="<?php echo htmlspecialchars($character['image']); ?>" alt="<?php echo htmlspecialchars($character['name']); ?>">
+            <ul>
+            <li>
                 <strong>Nome:</strong> <?php echo htmlspecialchars($character['name']); ?><br>
                 <strong>Status:</strong> <?php echo htmlspecialchars($character['status']); ?><br>
                 <strong>Espécie:</strong> <?php echo htmlspecialchars($character['species']); ?><br>
                 
             </li>
+            </ul>   
+            </div>
         <?php endforeach; ?>
     <?php else: ?>
         <p>Nenhum personagem encontrado.</p>
     <?php endif; ?>
-</ul>
+    </div>
 
 <!-- Biblioteca adicionada de particulas fundo -->
 <div id="particles-js"></div>
